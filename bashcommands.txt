@@ -1,0 +1,7 @@
+# From the root of your project
+
+goose up:   cd sql/schema; goose postgres "postgres://postgres:postgres@localhost:5432/gator" up; cd ../..
+goose down: cd sql/schema; goose postgres "postgres://postgres:postgres@localhost:5432/gator" down; cd ../..
+
+## When updating queries
+sqlc generate
