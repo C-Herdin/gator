@@ -1,4 +1,4 @@
-# Gator
+# gator
 You'll need Postgres and Go installed to run the program.
 
 You'll also need to know how to install the program.
